@@ -7,7 +7,7 @@ public class ProjectileSpawner : MonoBehaviour
 {
     [SerializeField] private InputActionReference shootRightHandActionReference;
     public Rigidbody projectile;
-    private float speed = 20.0f;
+    private float speed = 50.0f;
 
     void Start()
     {
